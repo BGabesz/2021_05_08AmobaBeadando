@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+main{
+    max-width:600px;
+    margi:auto;
+}
+header{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+main,article,section {
+    border:1px solid green;
+    padding:10px;
+}
+main{
+    width:100%;
+    max-width: 880px;
+    margin:auto;
+    background-color:black;
+    display: grid;
+    color:white;
+    grid-template-areas:
+        "h h h"
+        "a a a"
+        "s s s"
+        "f f f";
+}
+header{
+    grid-area:h;
+}
+article{
+    grid-area:a;
+}
+section{
+    grid-area:s;
+}
+footer{
+    grid-area:f;
+}
+section,table{
+    color:#ffffff;
+}
+footer{
+    text-align: center;
+        
+}.w3-button {
+
+}

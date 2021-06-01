@@ -10,7 +10,7 @@ header{
     font-size: 30px;
 }
 main,article,section {
-    border:1px solid green;
+    border:3px solid green;
     padding:10px;
 }
 main{
@@ -44,6 +44,32 @@ section,table{
 footer{
     text-align: center;
         
-}.w3-button {
+}
 
+.játéktábla {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cella {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid green;
+}
+.cella:hover {
+  cursor: pointer;
+}
+section{ 
+  display: flex;
+  justify-content: center;
+
+}
+article,h2{
+    text-align: center;
 }
